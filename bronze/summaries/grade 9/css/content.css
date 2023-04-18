@@ -1,0 +1,44 @@
+body {
+    user-select: none;
+}
+
+#cntts {
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    grid-template-rows: 200px 200px 200px 200px 200px;
+    position: absolute;
+    row-gap: 1px;
+    top: 140px;
+    left: 175px;
+    right: 2px;
+    row-gap: 4px;
+    column-gap: 4px;
+}
+
+img {
+    background-color: transparent;
+    width: 100px;
+    height: auto;
+}
+
+button{
+    border: 1px grey solid;
+    background-color: white;
+}
+
+#subj {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#engimg , #mathimg, #phyimg {
+    width: 130px;
+    height: auto;
+}
+
+#arbimg{
+    width: 77px;
+    height: auto;
+}

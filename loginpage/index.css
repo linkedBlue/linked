@@ -1,0 +1,136 @@
+:root {
+    --c1 : #004AAD ; 
+    --c2: white ;
+}
+
+body {
+    background: var(--c2);
+    margin: 0px;
+    user-select: none;
+}
+
+#half {
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    left: 40%;
+    background-color: var(--c1);
+    margin: 0px;
+}
+
+#text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+button{
+    display: block;
+    background-color: var(--c2);
+    color: var(--c1);
+    border: none;
+    border-radius: 100px;
+    height: 27px;
+    width: 130px;
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+button:active {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#h {
+    margin-left: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--c2);
+    letter-spacing: 6px;
+}
+
+input{
+    display: block;
+    height: 25px;
+    width: 325px;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    border: solid;
+    border-width: 1px;
+    padding-left: 15px;
+}
+
+img {
+    position: absolute;
+    background-color: var(--c2);
+    height: auto;
+    width: 370px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+#img {
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    margin: 0px;
+}
+
+#inco {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 36%;
+    color: var(--c2);
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+select{
+    border: var(--c2) 1px solid;
+    margin-bottom: 15px;
+    display: block;
+    transform:translateX(-50%);
+    margin-top: 15px;
+    margin-left: 164px;
+    height: 27px;
+    width: 130px;
+    border-radius: 100px;
+    padding-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#slc {
+    display: none;
+}
+
+option{ 
+    border: var(--c2) 1px solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#br {
+    background: #A9550F;
+    color: var(--c2);
+}
+
+#sl {
+    background: #a9b0b4;
+    color: var(--c2);
+}
+
+#gl {
+    background: #d4af37;
+    color: var(--c2);
+}
+
+@media screen and (max-width:500px) {
+
+}

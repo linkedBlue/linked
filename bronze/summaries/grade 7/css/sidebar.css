@@ -1,0 +1,43 @@
+:root {
+    --c1 : #004AAD ; 
+    --c2: white ;
+}
+
+body{
+    user-select: none;
+}
+
+#sidebar {
+    position: absolute;
+    top: 123px;
+    background-color: var(--c2);
+    border-right: 1px var(--c1) solid;
+    position: fixed;
+    bottom: 0px;
+    width: 170px;
+}
+
+#gr7 {
+    color: var(--c2);
+    display: block;
+    width: 170px;
+    height: 50px ;
+    background: var(--c1);
+    border: none;
+    border-bottom: 1px var(--c1) solid ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+#classesbtn button {
+    display: block;
+    width: 160px;
+    margin-left: 5px;
+    height: 50px ;
+    background: var(--c2);
+    border: none;
+    border-bottom: 1px var(--c1) solid ;
+    color: var(--c1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}

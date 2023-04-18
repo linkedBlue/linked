@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Linked</title>
+        <link rel="stylesheet" href="loginpage/index.css">
+    </head>
+    <body>
+        <div id="img">
+            <img src="loginpage/pic/linked-logo.png">
+        </div>
+        <div id="half">
+            <div id="text">
+                <h2 id="h">Log in</h2>
+                <input id="username" type="text" placeholder="username">
+                <input id="password" type="text" placeholder="password">
+                
+                <select id="plan" name="plan">
+                    <option id="slc" selected>Select Plan</option>
+                    <option id="br" value="bronze">Bronze</option>
+                    <option id="sl" value="silver">Silver</option>
+                    <option id="gl" value="gold">Gold</option>
+                </select>
+                
+                <button onclick="submit()">Submit</button>
+
+                <p id="inco"></p>
+            </div>
+        </div>
+        <script src="loginpage/index.js"></script>
+    </body>
+</html>
